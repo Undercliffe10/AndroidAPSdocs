@@ -372,6 +372,15 @@ Easiest way to transfer app-full-release.apk to your phone is via [USB cable or 
 On your phone you have to allow installation from unknown sources. Manuals how to do this can be found on the internet (i.e. [here](https://www.expressvpn.com/de/support/vpn-setup/enable-apk-installs-android/) or [here](https://www.androidcentral.com/unknown-sources)).
 
 
-## Troubleshooting
+## Troubleshooting - Delete Android Studio
+
+Deleting Android Studio, may be your only option when trying to rebuild or upgrade to a new version of **AAPS**. However, before deleting Android Studio please ensure the following steps are undertaken:
+
+1. ensure your keystore folder is stored safely in a folder separate from your C-drive (like a G-Drive) and have your keystore password available for use; and
+2. when prompted to do so, *tick* delete Android Studio but DO NOT elect to delete your Android Settings (i.e. make sure the first box is ticked, and the second box is left *unticked*).
+
+![AS_DELETE_Screenshot 2023-12-03 224103](https://github.com/openaps/AndroidAPSdocs/assets/137224335/f2bfc648-9f50-420d-9bba-9d1bcf86bb20) ![alt text](../images/file.png)
+
+After following steps 1. and 2., you can proceed to install the latest version of Android Studio to recover all your settings and work on the latest version of the project.
 
 See separate page [troubleshooting Android Studio](../Installing-AndroidAPS/troubleshooting_androidstudio).
