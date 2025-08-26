@@ -98,6 +98,8 @@ AndroidAPS build requires private keys, that are stored in a Java KeyStore (JKS)
 
 ```{warning}
 Building AAPS with **Option 1** will not allow you to upgrade your existing AAPS: you will need to uninstall it, restore the settings from your phone and data from Nightscout.
+
+To do this you should: 1. save your **AAPS** settings by exporting __before uninstalling **AAPS**__; 2. uninstall **AAPS**; 3. install the new version of your **AAPS** build and 4. restore your **AAPS'** settings by importing your settings.
 ```
 
 - If you want to use your own JKS (the one you used on a previous build of AAPS from a computer in Android Studio), you know its password and alias (key0), please choose [AAPS-CI Option 2 – Upload Existing JKS](aaps-ci-option2).
